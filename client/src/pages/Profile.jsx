@@ -217,7 +217,6 @@ export default function Profile() {
         </button>
         <Link
           className="bg-green-700 text-white p-3 rounded-lg uppercase text-center hover:opacity-95"
-          to={"/create-listing"}
         >
           Create listing
         </Link>
@@ -237,7 +236,7 @@ export default function Profile() {
       <p className="text-green-700 mt-5">
         {updateSuccess ? "User is updated successfully" : ""}
       </p>
-      <button onClick={handleShowListings} className="text-green-700">
+      <button onClick={handleShowListings} className="text-green-700 w-full">
         Show Listings
       </button>
       <p className="text-red-700 mt-5">
