@@ -26,7 +26,7 @@ export const deleteListing = async (req, res, next) => {
     next(error);
   }
 };
-
+///hi
 export const updateListing = async (req, res, next) => {
   const listing = await Listing.findById(req.params.id);
   if (!listing) {
